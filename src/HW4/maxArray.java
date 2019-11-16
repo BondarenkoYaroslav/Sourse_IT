@@ -36,4 +36,4 @@ public class maxArray {
 			System.out.println(arr[4]);
 		}
 	}
-}
+} 
