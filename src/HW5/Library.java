@@ -35,7 +35,7 @@ public class Library {
 				System.out.println(id.get(i));
 			}
 		}
-		System.out.println("");
+		System.out.println(" ");
 		System.out.println("Работа программы завершена.");
 	}
-}   
+}
