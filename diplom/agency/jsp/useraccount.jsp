@@ -8,7 +8,9 @@
 </head>
 <body>
 
-You logged in with user rights.
+<p> Logged in: ${sessionName}</p>
+
+<p> You logged as user </p>
 
 </body>
 </html>

@@ -37,7 +37,7 @@ public class RegistrationServlet extends HttpServlet {
 			throws ServletException, IOException {
 		
 		String nameUser = request.getParameter("name");
-		String surnameUser = request.getParameter("surname");
+		String surnameUser = request.getParameter("surname");		
 		String mailUser = request.getParameter("mail");
 		String numberUser = request.getParameter("number");
 		String birthdayUser = request.getParameter("birthday");
@@ -57,9 +57,6 @@ public class RegistrationServlet extends HttpServlet {
 			System.out.println("fail");
 			response.sendRedirect(getServletContext().getContextPath() + "/registration.jsp");
 			
-		}
-
-		
+		}		
 	}
-
 }

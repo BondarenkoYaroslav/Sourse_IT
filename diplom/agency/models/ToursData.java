@@ -1,13 +1,15 @@
 package agency.models;
 
+import java.sql.Date;
+
 public class ToursData {
 
 	private int idTour;
 	private int idCountry;
 	private int idRegion;
 	private int idHotel;
-	private String departureData;
-	private String returnData;
+	private Date departureData;
+	private Date returnData;
 	private int priceTour;
 
 	public int getIdTour() {
@@ -42,19 +44,19 @@ public class ToursData {
 		this.idHotel = idHotel;
 	}
 
-	public String getDepartureData() {
+	public Date getDepartureData() {
 		return departureData;
 	}
 
-	public void setDepartureData(String departureData) {
+	public void setDepartureData(Date departureData) {
 		this.departureData = departureData;
 	}
 
-	public String getReturnData() {
+	public Date getReturnData() {
 		return returnData;
 	}
 
-	public void setReturnData(String returnData) {
+	public void setReturnData(Date returnData) {
 		this.returnData = returnData;
 	}
 
