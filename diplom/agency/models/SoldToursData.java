@@ -5,7 +5,6 @@ public class SoldToursData {
 	private int idSold;
 	private int idClient;
 	private int idTour;
-	private String dataSold;
 
 	public int getIdSold() {
 		return idSold;
@@ -31,17 +30,8 @@ public class SoldToursData {
 		this.idTour = idTour;
 	}
 
-	public String getDataSold() {
-		return dataSold;
-	}
-
-	public void setDataSold(String dataSold) {
-		this.dataSold = dataSold;
-	}
-
 	@Override
 	public String toString() {
-		return "SoldToursData [idSold = " + idSold + ", idClient = " + idClient + ", idTour = " + idTour
-				+ ", dataSold = " + dataSold + "]";
+		return "SoldToursData [idSold = " + idSold + ", idClient = " + idClient + ", idTour = " + idTour + "]";
 	}
 }
